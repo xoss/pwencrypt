@@ -1,0 +1,9 @@
+{
+  "name": "pwencrypt",
+  "main": "index",
+  "dependencies": {
+    "base91": "*",
+    "prompt": "*",
+    "sha512": "*"
+  }
+}
