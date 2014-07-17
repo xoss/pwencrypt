@@ -1,6 +1,7 @@
 var base91 = require('base91');
 var prompt = require('prompt');
-var sha512 = require('sha512');
+///var sha512 = require('sha512');
+var sha512 = require('js-sha512').sha512;
 
 var schema = {
   properties: {
