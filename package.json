@@ -3,8 +3,7 @@
   "main": "index",
   "dependencies": {
     "base91": "*",
-    "js-sha512": "*",
-    "prompt": "*",
-    "sha512": "*"
+    "format": "*",
+    "prompt": "*"
   }
 }
