@@ -4,6 +4,10 @@
   "dependencies": {
     "base91": "*",
     "format": "*",
-    "prompt": "*"
+    "prompt": "*",
+    "sha512": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }
