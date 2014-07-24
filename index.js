@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 var base91 = require('base91');
-var exec = require('child_process').exec;
+var clipboard = require('copy-paste').noConflict();
 var format = require('format');
 var prompt = require('prompt');
 var sha512 = require('sha512');
@@ -26,4 +26,11 @@ prompt.get(schema, function (err, result) {
   var encoded = base91.encode(hash);
 
   console.log(encoded);
+  clipboard.copy(encoded, function (err, d) {
+    if (err) {
+      console.log(err);
+    }
+
+    console.log('Copied to clipboard');
+  });
 });

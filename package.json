@@ -3,6 +3,7 @@
   "main": "index",
   "dependencies": {
     "base91": "*",
+    "copy-paste": "*",
     "format": "*",
     "prompt": "*",
     "sha512": "*"
