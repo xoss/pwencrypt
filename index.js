@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var base91 = require('base91');
 var exec = require('child_process').exec;
 var format = require('format');
